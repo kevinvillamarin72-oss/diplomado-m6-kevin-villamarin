@@ -6,7 +6,7 @@ Integrantes:
 * Villamarin Kevin
   
 # Problema: Detección de Fraude en Transacciones Financieras
-# 1. Problema y datos
+## 1. Problema y datos
 El objetivo del proyecto es detectar transacciones fraudulentas para minimizar las pérdidas financieras de la plataforma. Contamos con un dataset de 2,996 eventos y 17 variables (demográficas, transaccionales y temporales).
 Durante el EDA rápido, se identificó una tasa de fraude del 10.51%, lo que evidencia un dataset desbalanceado. Para mejorar la capacidad predictiva, se realizó Feature Engineering creando variables clave como madrugada (transacciones entre 0 y 6 AM), ratio_monto_edad y monto_log (para normalizar la distribución del monto). Los gráficos de densidad demostraron que los fraudes se concentran en montos significativamente más altos y que la tasa de fraude en la madrugada (25%) casi triplica a la del resto del día.
 2. Modelos comparados (tabla de métricas)
