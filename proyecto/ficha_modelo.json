@@ -1,0 +1,19 @@
+{
+  "grupo": "Grupo 2",
+  "problema": "fraude",
+  "modelo": "Random Forest",
+  "metricas": {
+    "auc": "08978",
+    "exactitud_balanceada": "0,7130"
+  },
+  "hiperparametros": {},
+  "semilla": 42,
+  "semilla_datos": 461267,
+  "fecha": "2026-11-17 01:06",
+  "versiones": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  }
+}
